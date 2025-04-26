@@ -1,8 +1,11 @@
 import { OrderButton } from "./OrderButton";
-export const Books = () => {
+import "./Books.css";
+
+export const Books = ({ myimage, mytitle }) => {
   return (
-    <div>
-      <h2 className="main-heading">Název knihy</h2>
+    <div className="one-book">
+      <img src={myimage} alt="" />
+      <h2 className="main-heading">{mytitle}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
         dolore aliquid totam. Exercitationem modi deleniti eaque et illum
