@@ -8,8 +8,6 @@ function App() {
       <Books myimage={books[0].image} mytitle={books[0].title} />
       <Books myimage={books[1].image} mytitle={books[1].title} />
       <Books myimage={books[2].image} mytitle={books[2].title} />
-      <Books myimage={books[3].image} mytitle={books[3].title} />
-      <Books myimage={books[4].image} mytitle={books[4].title} />
     </div>
   );
 }
