@@ -3,9 +3,9 @@ import { Books } from "./components/Books";
 
 function App() {
   return (
-    <>
+    <div className="all-books">
       <Books />
-    </>
+    </div>
   );
 }
 
