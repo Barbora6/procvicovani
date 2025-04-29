@@ -7,7 +7,7 @@ import { FilterMap } from "./components/FilterMap";
 function App() {
   return (
     <>
-      <Counter />
+      {/* <Counter /> */}
       {/* <AllTask /> */}
       {/* <FilterMap /> */}
       {/* <ChangeTitle /> */}
