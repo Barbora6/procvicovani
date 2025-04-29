@@ -9,7 +9,7 @@ import image8 from "../images/movie8.png";
 import image9 from "../images/movie9.png";
 import image10 from "../images/movie10.png";
 
-export const allMovies = [
+const dataNetflix = [
   {
     id: 1,
     image: image1,
@@ -101,3 +101,5 @@ export const allMovies = [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas"
   }
 ];
+
+export default dataNetflix;

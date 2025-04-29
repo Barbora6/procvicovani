@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { data } from "../data";
+import { data } from "../data/data";
 import "./AllTask.css";
 
 export const AllTask = () => {

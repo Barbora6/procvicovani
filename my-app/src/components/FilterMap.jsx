@@ -1,4 +1,4 @@
-import { data } from "../data";
+import { data } from "../data/data";
 
 export const FilterMap = () => {
   const vymazaneId = 3;
