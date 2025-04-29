@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { DecreaseButton } from "./DecreaseButton";
 import { Increase } from "./Increase";
+import { ResetButton } from "./ResetButton";
 
 export const Counter = () => {
   const [value, setValue] = useState(0);
@@ -15,12 +16,17 @@ export const Counter = () => {
     setValue(newValue);
   };
 
+  const resetToZero = () => {
+    setValue(0);
+  };
+
   return (
     <div>
       <h1>Počítadlo</h1>
       <h2>{value}</h2>
       <DecreaseButton decrease={decreaseOne} />
       <Increase increase={increaseOne} />
+      <ResetButton reset={resetToZero} />
     </div>
   );
 };
