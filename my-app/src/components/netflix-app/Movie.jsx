@@ -1,5 +1,5 @@
 import { useState } from "react";
-import dataNetflix from "../data/dataNetflix";
+import dataNetflix from "../../data/dataNetflix";
 import "./Movie.css";
 import { MovieDeleteButton } from "./MovieDeleteButton";
 import { AllDeleteButton } from "./AllDeleteButton";
@@ -15,7 +15,7 @@ export const Movie = () => {
     setMovieList(filteredMovie);
   };
 
-  const deleteAll = () => {
+  const deleteAllMovies = () => {
     setMovieList([]);
   };
 
@@ -35,7 +35,7 @@ export const Movie = () => {
           </div>
         );
       })}
-      <AllDeleteButton deleteAll={deleteAll} />
+      <AllDeleteButton deleteAll={deleteAllMovies} />
     </div>
   );
 };
