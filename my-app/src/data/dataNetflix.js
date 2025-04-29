@@ -19,7 +19,8 @@ const dataNetflix = [
     age: "+13",
     tags: "Vtipný*Napínavý*Rodina",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "komedie"
   },
   {
     id: 2,
@@ -28,7 +29,8 @@ const dataNetflix = [
     age: "+13",
     tags: "Vtipný*Napínavý*Rodina",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "komedie"
   },
   {
     id: 3,
@@ -37,7 +39,8 @@ const dataNetflix = [
     age: "+16",
     tags: "Gangster*Napínavý*Násilí",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem    accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem    accusantiumametnemominusquoarchitectoquas",
+    category: "romantický"
   },
   {
     id: 4,
@@ -46,7 +49,8 @@ const dataNetflix = [
     age: "+16",
     tags: "Gangster*Napínavý*Násilí",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "romantický"
   },
   {
     id: 5,
@@ -55,7 +59,8 @@ const dataNetflix = [
     age: "+16",
     tags: "Gangster*Napínavý*Násilí",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "akční"
   },
   {
     id: 6,
@@ -64,7 +69,8 @@ const dataNetflix = [
     age: "+16",
     tags: "Rodinný*Napínavý*Romantický",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "akční"
   },
   {
     id: 7,
@@ -73,7 +79,8 @@ const dataNetflix = [
     age: "+13",
     tags: "Vesmír*Napínavý*Nebezpečí",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "romantický"
   },
   {
     id: 8,
@@ -82,7 +89,8 @@ const dataNetflix = [
     age: "+13",
     tags: "IT*Napínavý",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "akční"
   },
   {
     id: 9,
@@ -91,7 +99,8 @@ const dataNetflix = [
     age: "+16",
     tags: "Dokument*Napínavý",
     description:
-      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas"
+      "Loremipsumdolorsit,ametconsecteturadipisicingelit.Autem accusantiumametnemominusquoarchitectoquas",
+    category: "komedie"
   },
   {
     id: 10,
@@ -100,7 +109,8 @@ const dataNetflix = [
     age: "+13",
     tags: "Gangster * Napínavý * Násilí",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    category: "romantický"
   },
   {
     id: 11,
@@ -109,7 +119,8 @@ const dataNetflix = [
     age: "+13",
     tags: "Gangster * Napínavý * Násilí",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    category: "akční"
   },
   {
     id: 12,
@@ -118,7 +129,28 @@ const dataNetflix = [
     age: "+13",
     tags: "Gangster * Napínavý * Násilí",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    category: "romantický"
+  },
+  {
+    id: 13,
+    image: image7,
+    title: "Život",
+    age: "+13",
+    tags: "Vesmír * Napínavý * Nebezpečí",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    category: "horor"
+  },
+  {
+    id: 14,
+    image: image8,
+    title: "Kód za miliardu dolarů",
+    age: "+13",
+    tags: "IT * Napínavý",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem accusantium amet nemo minus quo architecto quas",
+    category: "horor"
   }
 ];
 
