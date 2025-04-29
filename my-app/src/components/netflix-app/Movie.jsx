@@ -3,6 +3,7 @@ import dataNetflix from "../../data/dataNetflix";
 import "./Movie.css";
 import { MovieDeleteButton } from "./MovieDeleteButton";
 import { AllDeleteButton } from "./AllDeleteButton";
+import { ReloadMoviesButton } from "./ReloadMoviesButton";
 
 export const Movie = () => {
   const [movieList, setMovieList] = useState(dataNetflix);
@@ -17,6 +18,10 @@ export const Movie = () => {
 
   const deleteAllMovies = () => {
     setMovieList([]);
+  };
+
+  const reloadAllMovies = () => {
+    setMovieList(dataNetflix);
   };
 
   return (
@@ -36,6 +41,7 @@ export const Movie = () => {
         );
       })}
       <AllDeleteButton deleteAll={deleteAllMovies} />
+      <ReloadMoviesButton reloadMovies={reloadAllMovies} />
     </div>
   );
 };
