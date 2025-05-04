@@ -7,17 +7,27 @@ export const Slider = () => {
   const [index, setIndex] = useState(0);
   const { image, title, description } = dataNetflix[index];
 
+  const checkMovieNumber = (movieIndex) => {
+    if (movieIndex < 0) {
+      return dataNetflix.length - 1;
+    } else if (movieIndex > dataNetflix.length - 1) {
+      return 0;
+    } else {
+      return movieIndex;
+    }
+  };
+
   const nextMovie = () => {
     setIndex((index) => {
       const newIndex = index + 1;
-      return newIndex;
+      return checkMovieNumber(newIndex);
     });
   };
 
   const previousMovie = () => {
     setIndex((index) => {
       const newIndex = index - 1;
-      return newIndex;
+      return checkMovieNumber(newIndex);
     });
   };
 
