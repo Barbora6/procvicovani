@@ -1,3 +1,7 @@
 export const ResetButton = ({ reset }) => {
-  return <button onClick={reset}>Resetovat</button>;
+  return (
+    <button className="btn" onClick={reset}>
+      Resetovat
+    </button>
+  );
 };

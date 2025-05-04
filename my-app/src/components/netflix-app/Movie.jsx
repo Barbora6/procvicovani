@@ -8,6 +8,7 @@ import { ReloadMoviesButton } from "./ReloadMoviesButton";
 export const Movie = () => {
   const [movieList, setMovieList] = useState(dataNetflix);
 
+  // po přefiltrování se vymaže ten na který bylo kliknuto
   const deleteMovieHandler = (idecko) => {
     const filteredMovie = movieList.filter((movie) => {
       return movie.id !== idecko;
@@ -16,10 +17,12 @@ export const Movie = () => {
     setMovieList(filteredMovie);
   };
 
+  // vymazání všech filmů
   const deleteAllMovies = () => {
     setMovieList([]);
   };
 
+  // znovunačtení filmů
   const reloadAllMovies = () => {
     setMovieList(dataNetflix);
   };

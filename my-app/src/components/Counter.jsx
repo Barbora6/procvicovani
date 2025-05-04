@@ -1,10 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DecreaseButton } from "./DecreaseButton";
 import { Increase } from "./Increase";
 import { ResetButton } from "./ResetButton";
 
 export const Counter = () => {
   const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    const button = document.querySelector(".btn");
+
+    if (value >= 1) {
+      button.textContent = `Klik číslo ${value}`;
+    } else {
+      button.textContent = "Klikni";
+    }
+  });
 
   const decreaseOne = () => {
     const result = value - 1;
