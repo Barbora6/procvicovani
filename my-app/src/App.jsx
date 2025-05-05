@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import { AllTask } from "./components/AllTask";
 import { ChangeTitle } from "./components/ChangeTitle";
 import { Counter } from "./components/Counter";
@@ -20,7 +20,7 @@ function App() {
       {/* <FilterMap /> */}
       {/* <ChangeTitle /> */}
       {/* <Slider /> */}
-      <OneMovieSlider />
+      <OneMovieSlider className="slider" />
     </>
   );
 }
