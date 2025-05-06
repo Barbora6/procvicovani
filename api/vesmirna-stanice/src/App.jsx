@@ -9,6 +9,9 @@ function App() {
         <li>
           <Link to="/vesmirna-stanice">Vesmírná stanice</Link>
         </li>
+        <li>
+          <Link to="/citaty">Citáty</Link>
+        </li>
       </ul>
     </>
   );
