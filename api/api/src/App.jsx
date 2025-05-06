@@ -12,6 +12,9 @@ function App() {
         <li>
           <Link to="/citaty">Citáty</Link>
         </li>
+        <li>
+          <Link to="/better-api">Jak pracovat lépe s API</Link>
+        </li>
       </ul>
     </>
   );

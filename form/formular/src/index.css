@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #e5e5e5;
+}
+form {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userName {
+  margin-bottom: 10px;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: #e50914;
+  color: #e5e5e5;
+  border: none;
+}
+
+input {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 8px;
+  background-color: aliceblue;
+  color: black;
+  margin-left: 10px;
+}
+
+label {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 48px;
+}
