@@ -11,6 +11,6 @@ export const ListOfQuestions = () => {
   );
 };
 
-// Pomocí funkcemapzačnemeprocházetnašedataapromítnemejedokomponenty
+// Pomocí funkce map začneme procházet naše data a promítneme je do komponenty
 //  Question.Zadáme id jako unikátní identifikátor a zbytek dat(title a info)pošleme přes tzv.
 //  rest parameter,který vezme vždy zbytek apošle ho do Question
